@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Argyle/Assets_School_Hallway/Demo/School_Hallway01.unity
+- path: Assets/Scenes/School_Classroom.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

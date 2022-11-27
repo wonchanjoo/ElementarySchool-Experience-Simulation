@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Argyle/Assets_School_Hallway/Demo/School_Hallway01.unity
+    path: Assets/Scenes/School_Hallway01.unity
     guid: 82232e6d635928649bca1220ca7e9c4a
   m_configObjects: {}
