@@ -27,7 +27,7 @@ public class cshHallWayGazeSuccess : MonoBehaviour
             timer += Time.deltaTime;
             gazeImg.fillAmount = timer / time;
             if (gazeImg.fillAmount == 1) {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
         }
     }

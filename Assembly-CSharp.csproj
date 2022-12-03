@@ -192,6 +192,7 @@
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\cshClassroomGazeSuccess.cs" />
     <Compile Include="Assets\Scripts\cshGoToClassText.cs" />
     <Compile Include="Assets\Scripts\cshHallWayGaze.cs" />
     <Compile Include="Assets\Scripts\cshHallWayGazeSuccess.cs" />

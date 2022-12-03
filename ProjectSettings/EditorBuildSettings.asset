@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/School_Classroom.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SuccessFindClass.unity
+    guid: e33c39b0379830c43b1ca603be395f8f
+  - enabled: 1
+    path: Assets/Scenes/SuccessFindSeat.unity
+    guid: da68eb5a553e21c42b41e4b57cc790ee
   m_configObjects: {}
