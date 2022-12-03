@@ -16,7 +16,7 @@ public class cshGoToClassText : MonoBehaviour
 
         dialogTexts.Add(new DialogData("난 한성이의 학교 생활을 도와주러 온 상상부기라고 해."));
 
-        // 밑에 두 줄 뺄까 고민중..길어질 것 같음.
+        // 밑에 두 줄 뺄까 고민중..길어질 것 같음. 좋은뎅? 역시 "N" 답다.. - "S" 찬주
 
         dialogTexts.Add(new DialogData("학교에 처음 와서 교실이 어디 있고, 자리가 어디인지 몰라 헤맬까봐 걱정된다구?"));
 
