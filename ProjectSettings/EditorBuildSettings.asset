@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MoveToClass.unity
+    guid: fd6f8612a048fae4aaa4ba0b06d17160
+  - enabled: 1
     path: Assets/Scenes/School_Hallway01.unity
     guid: 82232e6d635928649bca1220ca7e9c4a
   - enabled: 1

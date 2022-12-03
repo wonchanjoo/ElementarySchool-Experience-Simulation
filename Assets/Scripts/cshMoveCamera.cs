@@ -21,6 +21,7 @@ public class cshMoveCamera : MonoBehaviour
             //transform.Translate(Vector3.forward * 2.0f * Time.deltaTime, Space.World);  
             MoveLookAt();
         }
+
     }
     void MoveLookAt()
     {
