@@ -23,11 +23,10 @@ public class cshPointerEvent : MonoBehaviour
     {
         if(gazedAt)
         {
-           
         }
         else
         {
-            Debug.Log("OUT");
+            Debug.Log("Out");
         }
     }
 }

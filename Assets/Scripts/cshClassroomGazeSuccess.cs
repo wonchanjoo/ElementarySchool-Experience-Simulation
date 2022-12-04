@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class cshClassroomGazeSuccess : MonoBehaviour
 {
-    public GameObject g;
     public Image GazeImg;
     public float time = 2;
     bool status;
