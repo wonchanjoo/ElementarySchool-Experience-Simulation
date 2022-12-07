@@ -200,6 +200,7 @@
     <Compile Include="Assets\Scripts\cshMoveCamera.cs" />
     <Compile Include="Assets\Scripts\cshPointerEvent.cs" />
     <Compile Include="Assets\Scripts\cshSuccessFindClass.cs" />
+    <Compile Include="Assets\Scripts\cshSuccessFindSeat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
