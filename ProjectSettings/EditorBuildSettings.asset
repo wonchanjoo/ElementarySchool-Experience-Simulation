@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SuccessFindSeat.unity
     guid: da68eb5a553e21c42b41e4b57cc790ee
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 9593233a72265484ebbdf1671cb2bd26
   m_configObjects: {}
