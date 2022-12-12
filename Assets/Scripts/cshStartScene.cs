@@ -17,6 +17,7 @@ public class cshStartScene : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            FindObject.name = "CLASS";
             SceneManager.LoadScene(0);
         }
 

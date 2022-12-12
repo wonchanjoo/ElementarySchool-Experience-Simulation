@@ -6,16 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class cshHallWayGazeSuccess : MonoBehaviour
 {
-    public GameObject go;
     public Image gazeImg;
     public float time = 2;
-    bool status;
+    string findObj = "";
     float timer;
 
     // Start is called before the first frame update
     void Start()
     {
-        status = false;
         timer = 0;
         gazeImg.fillAmount = 0;
     }
@@ -23,22 +21,41 @@ public class cshHallWayGazeSuccess : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (status) {
+        if(findObj.Equals("CLASS"))
+        {
             timer += Time.deltaTime;
             gazeImg.fillAmount = timer / time;
-            if (gazeImg.fillAmount == 1) {
+            if (gazeImg.fillAmount == 1 && FindObject.name.Equals("CLASS"))
                 SceneManager.LoadScene(3);
-            }
+        }
+
+        if(findObj.Equals("TOILET"))
+        {
+            timer += Time.deltaTime;
+            gazeImg.fillAmount = timer / time;
+            if (gazeImg.fillAmount == 1 && FindObject.name.Equals("TOILET"))
+                SceneManager.LoadScene(6);
         }
     }
 
-    public void gazeOnSuccess() {
-        status = true;
+    public void gazeOnClassSuccess() {
+        findObj = "CLASS";
     }
 
-    public void gazeOffSuccess()
+    public void gazeOffClassSuccess()
     {
-        status = false;
+        findObj = "";
+        timer = 0;
+        gazeImg.fillAmount = 0;
+    }
+    public void gazeOnToiletSuccess()
+    {
+        findObj = "TOILET";
+    }
+
+    public void gazeOffToiletSuccess()
+    {
+        findObj = "";
         timer = 0;
         gazeImg.fillAmount = 0;
     }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class cshHallWayGaze : MonoBehaviour
 {
-    public GameObject go;
     public Image gazeImg;
     public float time = 2;
     bool status;

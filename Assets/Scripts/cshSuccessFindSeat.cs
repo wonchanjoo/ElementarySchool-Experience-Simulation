@@ -34,7 +34,8 @@ public class cshSuccessFindSeat : MonoBehaviour
     {
         if (DialogManager.Result == "findToilet")
         {
-            // 씬 이동하는거 추가해야함.
+            FindObject.name = "TOILET";
+            SceneManager.LoadScene(1);
         }
     }
 }
